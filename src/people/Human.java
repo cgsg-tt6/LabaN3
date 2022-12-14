@@ -1,10 +1,23 @@
-package subject;
+package people;
 
-public abstract class Male {
-    // добавить действия - уже невозможно
-    // класс Денфронт будет наследовать этот класс, но у него будет также имя
-    public Male() {
-        System.out.println("Новый Male заспавнился");
+import interfaces.Condition;
+
+// класс Денфронт будет наследовать этот класс, но у него будет также имя
+public abstract class Human implements Condition {
+
+    @Override
+    public String toString() {
+        return "Новый Human заспавнился";
     }
-    //public abstract void see();
+
+    @Override
+    public void describe() {
+        // this.toString = this
+        System.out.println(this);
+    }
+
+    public Human() {
+        describe();
+    }
+    public abstract void see();
 }

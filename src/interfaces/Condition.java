@@ -1,2 +1,5 @@
-package interfaces;public interface Condition {
+package interfaces;
+
+public interface Condition {
+    void describe();
 }

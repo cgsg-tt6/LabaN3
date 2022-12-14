@@ -1,6 +1,7 @@
-package subject;
+package objects;
 
-// record?
+import enums.Literature;
+
 public class Book {
     private String bookName;
     private String whereFrom;

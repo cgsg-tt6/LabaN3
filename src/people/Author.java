@@ -1,15 +1,22 @@
-package subject;
+package people;
 
-public class Author extends Male implements Flying{
+import interfaces.Flying;
+import objects.HrebtyBezumia;
+
+public class Author extends Human implements Flying {
     @Override
     public void fly() {
-        System.out.println("Author flies");
+        System.out.println("Author flies above "+HrebtyBezumia.hrebtybezumia());
     }
+
+    @Override
+    public void run(boolean isFast) {
+
+    }
+
     @Override
     public boolean equals(Object o) {
-        if (this.getClass() == o.getClass() && this == o)
-            return true;
-        return false;
+        return (this.getClass() == o.getClass() && this == o);
     }
     @Override
     public int hashCode() {
@@ -17,6 +24,11 @@ public class Author extends Male implements Flying{
     }
     @Override
     public String toString() {
-        return "Athor is Male, he can fly";
+        return "Author is Male, he can fly";
+    }
+
+    @Override
+    public void see() {
+        System.out.println("Author не смотрит вверх");
     }
 }
