@@ -11,9 +11,7 @@ public class Author extends Human implements Flying {
     }
 
     @Override
-    public void run(boolean isFast) {
-
-    }
+    public void run(boolean isFast) {}
 
     @Override
     public boolean equals(Object o) {

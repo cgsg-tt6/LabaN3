@@ -2,7 +2,7 @@ package objects;
 
 public class CrazyCliffs {
     @Override
-    public String toString(){
+    public String toString() {
         return "crazycliffs";
     }
 }

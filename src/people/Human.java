@@ -21,3 +21,4 @@ public abstract class Human implements Condition {
     }
     public abstract void see();
 }
+

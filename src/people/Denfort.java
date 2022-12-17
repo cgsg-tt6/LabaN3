@@ -37,3 +37,4 @@ public class Denfort extends people.Human implements Human {
         System.out.println("Не мог узреть он так много в одно мгновение");
     }
 }
+

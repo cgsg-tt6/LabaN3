@@ -23,8 +23,7 @@ public class Cloud implements Flying, Condition {
         System.out.println(line);
     }
 
-    public Cloud() {
-    }
+    public Cloud() {}
 
     @Override
     public void fly() {

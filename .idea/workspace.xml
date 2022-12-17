@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50476c51-ab1b-47fa-9960-35fe61650366" name="Changes" comment="Final version.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="50476c51-ab1b-47fa-9960-35fe61650366" name="Changes" comment="Renamed unterface Humanish into Human. Added Overrided methods. Some descriptions now are translated into English.">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Humanish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/HrebtyBezumia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/CrazyCliffs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/Cloud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Cloud.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/CrazyCliffs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/CrazyCliffs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/people/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/people/Author.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/people/Denfort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/people/Denfort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/people/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/people/Human.java" afterDir="false" />
@@ -66,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671054489093</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Renamed unterface Humanish into Human. Added Overrided methods. Some descriptions now are translated into English.">
+      <created>1671288335997</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671288335997</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -82,6 +89,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Final version." />
-    <option name="LAST_COMMIT_MESSAGE" value="Final version." />
+    <MESSAGE value="Renamed unterface Humanish into Human. Added Overrided methods. Some descriptions now are translated into English." />
+    <option name="LAST_COMMIT_MESSAGE" value="Renamed unterface Humanish into Human. Added Overrided methods. Some descriptions now are translated into English." />
   </component>
 </project>
