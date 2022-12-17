@@ -1,12 +1,13 @@
 package people;
 
 import interfaces.Flying;
-import objects.HrebtyBezumia;
+import objects.CrazyCliffs;
 
 public class Author extends Human implements Flying {
     @Override
     public void fly() {
-        System.out.println("Author flies above "+HrebtyBezumia.hrebtybezumia());
+        CrazyCliffs cf = new CrazyCliffs();
+        System.out.println("Author flies above "+ cf);
     }
 
     @Override
@@ -18,10 +19,12 @@ public class Author extends Human implements Flying {
     public boolean equals(Object o) {
         return (this.getClass() == o.getClass() && this == o);
     }
+
     @Override
     public int hashCode() {
         return 1;
     }
+
     @Override
     public String toString() {
         return "Author is Male, he can fly";

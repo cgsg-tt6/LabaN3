@@ -1,14 +1,21 @@
 package people;
 
 import objects.Book;
-import interfaces.Humanish;
+import interfaces.Human;
 import enums.Literature;
 
-public class Denfort extends Human implements Humanish {
-    private final String name;
+public class Denfort extends people.Human implements Human {
+    private final String name = "Denfort";
+
+    public Denfort() {}
 
     public String getName() {
         return name;
+    }
+
+    @Override
+    public String toString() {
+        return this.name +" was created";
     }
 
     @Override
@@ -22,12 +29,7 @@ public class Denfort extends Human implements Humanish {
 
     @Override
     public void say(String subjectName, String phrase, boolean isMeaningful, boolean isConfident) {
-        System.out.println(subjectName+" says '" + phrase + "'; "+ "осмысленность: "+ isMeaningful +", уверенность: " + isConfident);
-    }
-
-    public Denfort(){
-        this.name = "Denfort";
-        System.out.println(this.name +" заспавнился");
+        System.out.println(subjectName+" says '" + phrase + "'; "+ "meaningfulness: "+ isMeaningful +", confidence: " + isConfident);
     }
 
     @Override

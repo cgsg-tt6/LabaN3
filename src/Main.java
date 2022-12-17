@@ -30,7 +30,6 @@ public class Main {
 
         Book ezlit = new Book();
         ezlit.setBookName("Эзотерическая литература");
-        //ezlit.setWhereFrom(null);
         ezlit.setType(Literature.DIFFERENT_BOOKS);
         denfort.read(denfort.getName(), ezlit, false, ezlit.getType());
 

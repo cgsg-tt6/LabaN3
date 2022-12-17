@@ -7,12 +7,12 @@ public abstract class Human implements Condition {
 
     @Override
     public String toString() {
-        return "Новый Human заспавнился";
+        return "New Human was created";
     }
 
     @Override
     public void describe() {
-        // this.toString = this
+        // this.toString <=> this
         System.out.println(this);
     }
 

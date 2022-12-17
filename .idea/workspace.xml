@@ -4,16 +4,8 @@
     <list default="true" id="50476c51-ab1b-47fa-9960-35fe61650366" name="Changes" comment="Final version.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enums/Literature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enums/Literature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enums/Unsubstantial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enums/Unsubstantial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Condition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Condition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Flying.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Flying.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Humanish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Humanish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/Cloud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Cloud.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/HrebtyBezumia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/HrebtyBezumia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/Imagination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Imagination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/Sky.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Sky.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/Humanish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/HrebtyBezumia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/CrazyCliffs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/people/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/people/Author.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/people/Denfort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/people/Denfort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/people/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/people/Human.java" afterDir="false" />
@@ -60,6 +52,21 @@
       <option name="presentableId" value="Default" />
       <updated>1667904671829</updated>
     </task>
+    <task id="LOCAL-00001" summary="Final version.">
+      <created>1671054423102</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671054423102</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Final version.">
+      <created>1671054489093</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671054489093</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
