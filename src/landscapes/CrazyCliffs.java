@@ -1,6 +1,6 @@
-package objects;
+package landscapes;
 
-public class CrazyCliffs {
+public class CrazyCliffs extends Mountains {
     @Override
     public String toString() {
         return "crazycliffs";

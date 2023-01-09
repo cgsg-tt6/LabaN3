@@ -1,4 +1,4 @@
-package objects;
+package landscapes;
 
 import enums.Unsubstantial;
 import interfaces.Condition;

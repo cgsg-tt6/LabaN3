@@ -1,5 +1,6 @@
 package people;
 
+import enums.Age;
 import objects.Book;
 import interfaces.Human;
 import enums.Literature;
@@ -7,7 +8,9 @@ import enums.Literature;
 public class Denfort extends people.Human implements Human {
     private final String name = "Denfort";
 
-    public Denfort() {}
+    public Denfort() {
+        this.setAge(Age.YOUNG);
+    }
 
     public String getName() {
         return name;
