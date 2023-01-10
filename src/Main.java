@@ -1,4 +1,10 @@
+import buildings.Building;
+import buildings.Subway;
+import buildings.Tower;
+import enums.Age;
 import enums.Literature;
+import enums.Shapes;
+import landscapes.Caves;
 import landscapes.Sky;
 import people.*;
 import objects.*;
@@ -16,6 +22,21 @@ public class Main {
         System.out.println(text);
 
         Denfort denfort = new Denfort();
+
+        Subway s = new Subway(Age.UNKNOWN, Shapes.DEFAULT, "из Бостона в Кембридж за тысячи миль отсюда, в мирной земле Новой Англии");
+
+        Elders elders = new Elders();
+        List<String> presents = Arrays.asList("жизнь,", "способность мыслить,", "пластические органы,", "точечный алфавит,", "звучание языка");
+        elders.allow(presents);
+
+        Caves cave1 = new Caves(Shapes.SPHERICAL);
+
+        Tower tower = new Tower();
+        Building mausoleum = new Building(Age.OLD, Shapes.ROUND, null, "mausoleum");
+        Building g = new Building(Age.UNKNOWN, Shapes.CYLINDRICAL, null, "sixty-foot stone");
+
+        /*
+        // laba # 3
         List<String> phrases1 = Arrays.asList("черная бездна", "резные края", "протошогготы", "пятимерные, наглухо закрытые конструкции", "мерзкий цилиндр", "древний Фарос", "Иог-Сотот",
                 "исходная белая студнеобразная структура", "космический оттенок", "крылья", "глаза в темноте", "лунная дорожка", "первозданный, вечный, неумирающий");
 
@@ -53,7 +74,7 @@ public class Main {
 
         //заикнулся
         denfort.say(denfort.getName(), "что-то о своем кошмарном видении", true, false);
-        denfort.see();
+        denfort.see(); */
     }
 }
 
