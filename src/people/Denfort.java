@@ -1,9 +1,12 @@
 package people;
 
 import enums.Age;
+import exceptions.MadnessException;
 import objects.Book;
 import interfaces.Human;
 import enums.Literature;
+
+import java.util.Random;
 
 public class Denfort extends people.Human implements Human {
     private final String name = "Denfort";
@@ -38,6 +41,13 @@ public class Denfort extends people.Human implements Human {
     @Override
     public void see() {
         System.out.println("Не мог узреть он так много в одно мгновение");
+    }
+
+    public void getMad() throws MadnessException {
+        Random rand = new Random();
+        double r = rand.nextDouble();
+        if (r >= 0.8)
+            throw new MadnessException("The main character Denfort accidentally got mad, the story cannot continue");
     }
 }
 

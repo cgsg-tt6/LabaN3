@@ -2,12 +2,13 @@ package buildings;
 
 import enums.Age;
 import enums.Shapes;
+import exceptions.NoShapeBuildingException;
 import interfaces.Condition;
 
 public class Building implements Condition {
     private Age age;
     private Shapes shape;
-    private  String place;
+    private String place;
     private String name;
 
     public Age getAge() {
@@ -75,6 +76,16 @@ public class Building implements Condition {
             age = null;
         }
 
+        try {
+            if (this.getShape() == null) {
+                throw new NoShapeBuildingException("The building has no shape");
+            }
+        }
+        catch (NoShapeBuildingException e) {
+            this.setShape(Shapes.CUBIC);
+            System.out.println(e.getMessage());
+        }
+
         switch (this.getShape()) {
             case CUBIC -> shape = "cubic";
             case ROUND -> shape = "round";
@@ -84,15 +95,13 @@ public class Building implements Condition {
             case FIVE_POINTED -> shape = "five-pointed";
             default -> shape = null;
         }
-        if (age != null && shape != null && place != null) {
+        if (age != null && place != null) {
             return age + " " + shape + " building is situated in " + place;
         }
         if (age == null && place == null)
             return "One usual " + shape + " building";
         if (age == null)
-            return "The "  + shape + " building is situated in " + place;
-        if (place == null)
-            return "The "  + shape + " building";
+            return "The " + shape + " building is situated in " + place;
         return "A strange building exists...";
     }
 

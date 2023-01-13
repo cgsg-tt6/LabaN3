@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50476c51-ab1b-47fa-9960-35fe61650366" name="Changes" comment="Renamed unterface Humanish into Human. Added Overrided methods. Some descriptions now are translated into English.">
+    <list default="true" id="50476c51-ab1b-47fa-9960-35fe61650366" name="Changes" comment="Used the objects of the classes in main, added some descriptions. Have to make exceptions">
+      <change afterPath="$PROJECT_DIR$/src/enums/Size.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/MadnessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/NoShapeBuildingException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/Cloud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Cloud.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/CrazyCliffs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/CrazyCliffs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/people/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/people/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/buildings/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/buildings/Building.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/buildings/Subway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/buildings/Subway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creatures/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creatures/Creature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/landscapes/Caves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/landscapes/Caves.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/landscapes/Mountains.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/landscapes/Mountains.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/people/Denfort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/people/Denfort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/people/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/people/Human.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -31,7 +35,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HGHo5DPcHH8toThZhSyggXDwFl" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -73,7 +79,28 @@
       <option name="project" value="LOCAL" />
       <updated>1671288335997</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Renamed unterface Humanish into Human. Added Overrided methods. Some descriptions now are translated into English.">
+      <created>1671288631640</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671288631640</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Laba # 4.&#10;Number of classes extended due to the task, new enums added. Now we have to write some methods in the classes, make exceptions, local, anonymous, static, non-static classes. Implement Condition to more classes. May add more classes and interfaces.">
+      <created>1673288475425</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673288475425</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Used the objects of the classes in main, added some descriptions. Have to make exceptions">
+      <created>1673340475824</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673340475824</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,6 +117,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Final version." />
     <MESSAGE value="Renamed unterface Humanish into Human. Added Overrided methods. Some descriptions now are translated into English." />
-    <option name="LAST_COMMIT_MESSAGE" value="Renamed unterface Humanish into Human. Added Overrided methods. Some descriptions now are translated into English." />
+    <MESSAGE value="Laba # 4.&#10;Number of classes extended due to the task, new enums added. Now we have to write some methods in the classes, make exceptions, local, anonymous, static, non-static classes. Implement Condition to more classes. May add more classes and interfaces." />
+    <MESSAGE value="Used the objects of the classes in main, added some descriptions. Have to make exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Used the objects of the classes in main, added some descriptions. Have to make exceptions" />
   </component>
 </project>
