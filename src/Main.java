@@ -1,6 +1,8 @@
 import buildings.*;
 import enums.*;
 import exceptions.MadnessException;
+import interfaces.Flying;
+import interfaces.Human;
 import landscapes.*;
 import people.*;
 import objects.*;
@@ -21,10 +23,26 @@ public class Main {
             Denfort denfort = new Denfort();
 
             Subway s = new Subway(Age.UNKNOWN, Shapes.DEFAULT, "из Бостона в Кембридж за тысячи миль отсюда, в мирной земле Новой Англии");
+            Subway.Station station = new Subway.Station();
+            // анонимный класс, "объект интерфейса"
+            Human shoggoths = new Human() {
+                @Override
+                public void say(String subjectName, String phrase, boolean isMeaningful, boolean isConfident) {
+                    System.out.println(subjectName + " say " + phrase);
+                }
+
+                @Override
+                public void read(String reader, Book b, boolean isInProgress, Literature type) {
+                    System.out.println("Elders taught " + reader +" how to read");
+                }
+            };
 
             Elders elders = new Elders();
             List<String> presents = Arrays.asList("жизнь,", "способность мыслить,", "пластические органы,", "точечный алфавит,", "звучание языка");
             elders.allow(presents);
+
+            shoggoths.say("Shoggoths", "Elders gave us everything!", true, true);
+            shoggoths.read("Shoggoths", new Book(), true, Literature.NEWSPAPER);
 
             Mountains m = new Mountains(true);
             Caves cave1 = new Caves(Shapes.SPHERICAL);
@@ -32,10 +50,11 @@ public class Main {
             Tower tower = new Tower();
             Building mausoleum = new Building(Age.OLD, Shapes.ROUND, null, "mausoleum");
             Building g = new Building(Age.UNKNOWN, Shapes.CYLINDRICAL, "town", "sixty-foot stone");
-            // unchecked exeption
+            // unchecked exception
             Building g1 = new Building(Age.UNKNOWN, null, null);
             g1.describe();
-            /*
+            River river = new River();
+
             // laba # 3
             List<String> phrases1 = Arrays.asList("черная бездна", "резные края", "протошогготы", "пятимерные, наглухо закрытые конструкции", "мерзкий цилиндр", "древний Фарос", "Иог-Сотот",
                     "исходная белая студнеобразная структура", "космический оттенок", "крылья", "глаза в темноте", "лунная дорожка", "первозданный, вечный, неумирающий");
@@ -74,7 +93,9 @@ public class Main {
 
             //заикнулся
             denfort.say(denfort.getName(), "что-то о своем кошмарном видении", true, false);
-            denfort.see(); */
+            denfort.see();
+
+
             // the checked exception
             denfort.getMad();
 

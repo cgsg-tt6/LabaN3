@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50476c51-ab1b-47fa-9960-35fe61650366" name="Changes" comment="Used the objects of the classes in main, added some descriptions. Have to make exceptions">
-      <change afterPath="$PROJECT_DIR$/src/enums/Size.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/MadnessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/NoShapeBuildingException.java" afterDir="false" />
+    <list default="true" id="50476c51-ab1b-47fa-9960-35fe61650366" name="Changes" comment="Exceptions added. More methods added due to the story.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/buildings/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/buildings/Building.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/buildings/Subway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/buildings/Subway.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creatures/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creatures/Creature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/landscapes/Caves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/landscapes/Caves.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creatures/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creatures/Monster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creatures/Shoggoths.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/landscapes/Mountains.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/landscapes/Mountains.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/people/Denfort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/people/Denfort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/landscapes/River.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/landscapes/River.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673340475824</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Exceptions added. More methods added due to the story.">
+      <created>1673572253694</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673572253694</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +122,7 @@
     <MESSAGE value="Renamed unterface Humanish into Human. Added Overrided methods. Some descriptions now are translated into English." />
     <MESSAGE value="Laba # 4.&#10;Number of classes extended due to the task, new enums added. Now we have to write some methods in the classes, make exceptions, local, anonymous, static, non-static classes. Implement Condition to more classes. May add more classes and interfaces." />
     <MESSAGE value="Used the objects of the classes in main, added some descriptions. Have to make exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Used the objects of the classes in main, added some descriptions. Have to make exceptions" />
+    <MESSAGE value="Exceptions added. More methods added due to the story." />
+    <option name="LAST_COMMIT_MESSAGE" value="Exceptions added. More methods added due to the story." />
   </component>
 </project>

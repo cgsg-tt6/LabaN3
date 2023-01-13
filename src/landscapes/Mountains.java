@@ -11,7 +11,13 @@ public class Mountains implements Condition {
     public Mountains(boolean isCaves) {
         this();
         if (isCaves) {
-            Caves caves = new Caves(Shapes.ROUND, " are in Mountains");
+            // вложенный нестатический класс
+            Caves caves = new Caves(Shapes.ROUND, " are in Mountains") {
+                @Override
+                public String toString() {
+                    return "Caves of round shape are in Mountains!";
+                }
+            };
         }
     }
 
